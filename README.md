@@ -84,7 +84,7 @@ To de-serialize an object, we need 2 classes:
 
 1. `FileInputStream`: this class will let us read the byte stream from the
    serialized version of the object from a file
-2. `ObjectInputStream`: this clas will let us convert the byte stream version of
+2. `ObjectInputStream`: this class will let us convert the byte stream version of
    the object into an in-memory object
 
 The code to de-serialize our `Person` object looks like this:
@@ -135,7 +135,7 @@ not understand the way that Java represents its objects and therefore cannot
 consume a serialized version of those objects.
 
 > All data from an object gets saved when it gets serialized, except for fields
-> that are explicitely marked `transient`. The definition of a `transient` field
+> that are explicitly marked `transient`. The definition of a `transient` field
 > is a field that does not get serialized. This is used for fields that
 > represent data that cannot be restored in the future. For example, a network
 > connection that exists at moment T will not exist at moment T + 1 when the
