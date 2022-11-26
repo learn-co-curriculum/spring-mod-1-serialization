@@ -2,8 +2,9 @@
 
 ## Learning Goals
 
-- Understand serialization
-- Serialize files in Java
+- Explain serialization.
+- Elaborate on the process of serializing a Java object.
+- Discuss how to de-serialize a byte stream into a Java object again.
 
 ## Introduction
 
