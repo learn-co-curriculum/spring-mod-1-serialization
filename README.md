@@ -210,7 +210,7 @@ Here is a breakdown of this code:
 2. We'll create a `FileInputStream` with the name of the file we want to read the
    object's bytes from. In this case, we want to read in the binary data we wrote
    out, so we'll pass in the `student.data` file as an argument.
-3. Nex we'll create an `ObjectInputStream` with the `studentFile`, indicating that
+3. Next we'll create an `ObjectInputStream` with the `studentFile`, indicating that
    we want to read this object's byte representation from the file we specified.
 4. Then we ask our object input stream object to read the `Student` input
    stream from the file:
